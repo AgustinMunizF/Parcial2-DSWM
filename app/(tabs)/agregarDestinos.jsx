@@ -60,12 +60,12 @@ const AgregarPlaneta = () => {
       setDifficulty("");
       setIsFavorite(false);
 
-      Alert.alert("Éxito", "El planeta ha sido agregado.");
+      Alert.alert("Éxito", "El destino se ha sido agregado.");
     } catch (error) {
-      console.error("Error al agregar el planeta:", error);
+      console.error("Error al agregar el destino:", error);
       Alert.alert(
         "Error",
-        "No se pudo agregar el planeta. Intenta nuevamente."
+        "No se pudo agregar el destino. Intenta nuevamente."
       );
     }
   };

@@ -11,7 +11,7 @@ import {
 import { useLocalSearchParams, useRouter } from "expo-router";
 
 export default function EditarDestino() {
-  const params = useLocalSearchParams(); // Obtener los parámetros desde la URL
+  const params = useLocalSearchParams();
   const { id, name, description, difficulty, isFavorite } = params;
   const router = useRouter();
 
